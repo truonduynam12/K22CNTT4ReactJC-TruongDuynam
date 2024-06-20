@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "port": 3030,
+      "type": "chrome",
+      "name": "Attach to Chrome",
+      "request": "attach",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Launch Chrome",
+      "request": "launch",
+      "url": "http://localhost:3030",
+      "type": "chrome",
+      "webRoot": "${workspaceFolder}"
+    },
+    {}
+  ],
+  "version": "0.2.0"
+}
